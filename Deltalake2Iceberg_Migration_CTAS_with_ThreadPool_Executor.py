@@ -27,8 +27,8 @@ sql_commands = [
     SELECT * FROM spark_catalog.sys_spark_deltalake.inventory
     """,
     """
-    CREATE TABLE sys_iceberg_dev.sys_spark_iceberg.customer_inventory USING ICEBERG AS 
-    SELECT * FROM spark_catalog.sys_spark_deltalake.customer_inventory
+    CREATE TABLE sys_iceberg_dev.sys_spark_iceberg.inventory_stats USING ICEBERG AS 
+    SELECT * FROM spark_catalog.sys_spark_deltalake.inventory_stats
     """,
     """
     CREATE TABLE sys_iceberg_dev.sys_spark_iceberg.inventory_settings USING ICEBERG AS 
