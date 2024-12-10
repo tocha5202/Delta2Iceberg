@@ -50,7 +50,10 @@ More info under the following link:
 https://iceberg.apache.org/docs/1.4.3/delta-lake-migration/
 
 When you click on the 3x required modules, it will download the jars locally. The module 'iceberg-delta-lake' provides the interface for the snapshot. 
+
 The iceberg-delta-lake module provides an interface named DeltaLakeToIcebergMigrationActionsProvider, which contains actions that helps converting from Delta Lake to Iceberg. The supported actions are: * snapshotDeltaLakeTable: snapshot an existing Delta Lake table to an Iceberg table
+
+
 ---
 
 ## Summary:
